@@ -9,82 +9,82 @@
             {
                 case 'A':
                 case 'a':
-                    return 0x31;
+                    return 0b0011_0001;
                 case 'B':
                 case 'b':
-                    return 0xFE;
+                    return 0b1111_1110;
                 case 'C':
                 case 'c':
-                    return 0xFA;
+                    return 0b1111_1010;
                 case 'D':
                 case 'd':
-                    return 0x76;
+                    return 0b0111_0110;
                 case 'E':
                 case 'e':
-                    return 0x11;
+                    return 0b0001_0001;
                 case 'F':
                 case 'f':
-                    return 0xFB;
+                    return 0b1111_1011;
                 case 'G':
                 case 'g':
-                    return 0x74;
+                    return 0b0111_0100;
                 case 'H':
                 case 'h':
-                    return 0xFF;
+                    return 0b1111_1111;
                 case 'I':
                 case 'i':
-                    return 0x33;
+                    return 0b0011_0011;
                 case 'J':
                 case 'j':
-                    return 0xF1;
+                    return 0b1111_0001;
                 case 'K':
                 case 'k':
-                    return 0x72;
+                    return 0b0111_0010;
                 case 'L':
                 case 'l':
-                    return 0xFD;
+                    return 0b1111_1101;
                 case 'M':
                 case 'm':
-                    return 0x30;
+                    return 0b0011_0000;
                 case 'N':
                 case 'n':
-                    return 0x32;
+                    return 0b0011_0010;
                 case 'O':
                 case 'o':
-                    return 0x70;
+                    return 0b0111_0000;
                 case 'P':
                 case 'p':
-                    return 0xF9;
+                    return 0b1111_1001;
                 case 'Q':
                 case 'q':
-                    return 0xF4;
+                    return 0b1111_0100;
                 case 'R':
                 case 'r':
-                    return 0x75;
+                    return 0b0111_0101;
                 case 'S':
                 case 's':
-                    return 0x77;
+                    return 0b0111_0111;
                 case 'T':
                 case 't':
-                    return 0x10;
+                    return 0b0001_0000;
                 case 'U':
                 case 'u':
-                    return 0x73;
+                    return 0b0111_0011;
                 case 'V':
                 case 'v':
-                    return 0xF7;
+                    return 0b1111_0111;
                 case 'W':
                 case 'w':
-                    return 0x71;
+                    return 0b0111_0001;
                 case 'X':
                 case 'x':
-                    return 0xF6;
+                    return 0b1111_0110;
                 case 'Y':
                 case 'y':
-                    return 0xF2;
+                    return 0b1111_0010;
                 case 'Z':
                 case 'z':
-                    return 0xFC;
+                    return 0b1111_1100;
                 default:
                     return 0b0000_0000;
             }
